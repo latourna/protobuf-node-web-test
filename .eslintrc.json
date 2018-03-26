@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "extends": [
+    "airbnb"
+  ],
+  "plugins": [
+    "import"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "no-console": [
+      "off"
+    ],
+    "no-underscore-dangle": [
+      "off"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "plugin:node/recommended",
+    "plugin:security/recommended"
+  ],
+  "plugins": [
+    "node",
+    "security"
+  ],
+  "rules": {
+    "security/detect-object-injection": [
+      "off"
+    ]
+  }
+}
